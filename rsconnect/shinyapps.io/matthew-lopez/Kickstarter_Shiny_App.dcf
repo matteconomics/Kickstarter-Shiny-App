@@ -1,0 +1,13 @@
+name: Kickstarter_Shiny_App
+title: Kickstarter_Shiny_App
+username:
+account: matthew-lopez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4105454
+bundleId: 4578567
+url: https://matthew-lopez.shinyapps.io/Kickstarter_Shiny_App/
+when: 1620605133.8009
+lastSyncTime: 1620605133.8009
+asMultiple: FALSE
+asStatic: FALSE
