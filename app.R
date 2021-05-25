@@ -18,7 +18,7 @@ library(scales)
 library(geojsonio)
 library(leaflet)
 library(glmnet)
-
+library(shinythemes)
 options(scipen = 5) # turning off scientific notation 
 
 # Preparing Data created in Analysis File for use in App -----------------------------------------------------------------------------------
@@ -135,7 +135,8 @@ table(test$successful, lasso.pred > 0.5) # confusion matrix
 user_choice <- x_test[1,, drop = FALSE] #selecting one row to be used for user input, simply need to change values as given
 
 # Define UI------------------------------------------------------------------------------------------------------------------------------------
-ui <- navbarPage("Kickstarter Analysis",
+ui <- navbarPage(theme = shinytheme("flatly"),
+                 "Kickstarter Analysis",
                  
                  ###### Inserting shinydashboard dependencies ######
                  header = tagList(
